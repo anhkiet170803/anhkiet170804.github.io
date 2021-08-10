@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+#div1{
+    text-align: justify;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    line-height: 30px;
+    word-spacing: 30px;
+    text-shadow: 1px 1px 3px aqua;
+}
+#div2{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+#div3{
+    vertical-align: middle;
+    text-decoration: overline;
+}
+#div4{
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
